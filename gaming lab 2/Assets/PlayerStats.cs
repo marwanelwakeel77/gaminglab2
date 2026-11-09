@@ -12,6 +12,7 @@ public class PlayerStats : MonoBehaviour
     public bool isImune = false;
     private float immunityTime=0f;
     public float immunityDuration=1.5f;
+    public static int score=0;
 
     // Start is called before the first frame update
     void Start()
